@@ -1,0 +1,35 @@
+{
+  "name": "jsnes-block",
+  "description": "A nes emulator",
+  "version": "1.0.0",
+  "keywords": [
+    "pq3t48npq034aa",
+    "nes",
+    "jsnes",
+    "emulator"
+  ],
+  "main": "code.js",
+  "block": {
+    "inputs": {},
+    "outputs": {},
+    "propertyOrder": [
+      "rom",
+      "nes",
+      "imageData"
+    ],
+    "properties": {
+      "rom": {
+        "type": "fileSelector"
+      },
+      "nes": {
+        "output": true
+      },
+      "imageData": {
+        "output": true
+      }
+    }
+  },
+  "dependencies": {
+    "jsnes": "1.2.1"
+  }
+}
